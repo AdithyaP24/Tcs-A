@@ -1,0 +1,21 @@
+# AMD MI300X + NVIDIA NIM Multi-Agent Swarm
+# TCS × AMD Hackathon
+# Install: pip install -r requirements.txt
+
+# ── LangChain core ────────────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# ── NVIDIA NIM integration ────────────────────────────────────────────────────
+langchain-nvidia-ai-endpoints>=0.1.0
+
+# ── Async HTTP (used by Ollama fallback) ──────────────────────────────────────
+aiohttp>=3.9.0
+
+# ── Terminal UI ───────────────────────────────────────────────────────────────
+rich>=13.7.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+asyncio-throttle>=1.0.2
+python-dotenv>=1.0.0
